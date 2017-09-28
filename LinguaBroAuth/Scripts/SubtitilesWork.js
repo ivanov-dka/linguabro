@@ -18,6 +18,9 @@ function createSub(second) {
             for (var i = 0; i < subText.length; i++) {
                 $('#subs').append('<a href="#">' + ' ' + subText[i] + ' '  + '</a>')
             }
+            $('#subs a').click(function () {
+                fakeTranslate($(this).text(), $(this));
+            });
             return;
         }
     }

@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="LinguaBroAuth._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <script src="Scripts/jquery-1.10.2.min.js"></script>
     <script src="Scripts/parse-srt.js"></script>
     <script src="Scripts/SubtitilesWork.js"></script>
     <!--Reference the SignalR library. -->
@@ -84,9 +83,10 @@
         }
 
         //фейк перевод
-        function fakeTranslate(word) {
-            console.log('translation: ' + translation);
-            showTranslation(translation);
+        function fakeTranslate(word, objectA) {
+            objectA.popover(word);
+           // console.log('translation: ' + translation);
+          //  showTranslation(translation);
         }
 
         //перевести слово
