@@ -57,3 +57,11 @@ input[type="select"] {
         color: white;
         text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
     }
+
+
+.navbar-brand img {
+    max-height: 55px;
+    left: 20px;
+    position: absolute;
+    top: 0;
+}

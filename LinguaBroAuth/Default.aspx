@@ -101,7 +101,7 @@
             });
         }
 
-        function showTranslation() {
+        function showTranslation(word) {
 
         }
     </script>
@@ -115,7 +115,7 @@
 
     <div class="row">
         <video width="640" height="480" controls>
-            <source src="Content/big_buck_bunny.mp4" type="video/mp4">
+            <source src="https://linguabro.blob.core.windows.net/test/big_buck_bunny.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
