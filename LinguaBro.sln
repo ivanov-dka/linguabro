@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinguaBro", "LinguaBro\LinguaBro.csproj", "{AD3145FC-FDBA-4DA1-8102-A366AFB61996}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinguaBroAuth", "LinguaBroAuth\LinguaBroAuth.csproj", "{301A8703-1040-4E4C-A19C-AC2E9F65B85D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD3145FC-FDBA-4DA1-8102-A366AFB61996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD3145FC-FDBA-4DA1-8102-A366AFB61996}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD3145FC-FDBA-4DA1-8102-A366AFB61996}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD3145FC-FDBA-4DA1-8102-A366AFB61996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301A8703-1040-4E4C-A19C-AC2E9F65B85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301A8703-1040-4E4C-A19C-AC2E9F65B85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301A8703-1040-4E4C-A19C-AC2E9F65B85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301A8703-1040-4E4C-A19C-AC2E9F65B85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

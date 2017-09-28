@@ -13,10 +13,11 @@ namespace LinguaBroAuth
             Clients.All.hello();
         }
 
-        public void Send(string name, string message)
+        public void Send(string second)
         {
             // Call the broadcastMessage method to update clients.
-            Clients.All.broadcastMessage(name, message);
+            Clients.AllExcept(Context.ConnectionId).syncTime(second);
         }
+        
     }
 }
