@@ -123,6 +123,7 @@ function setSubSelected(second) {
     $('#subsList li.selected').removeClass('selected');
     $('#subsList li').each(function () {
 
+        second = parseFloat(second);
         var start = parseFloat($(this).attr('data-start'));
         var end = parseFloat($(this).attr('data-end'));
         if (start <= second && second <= end) {

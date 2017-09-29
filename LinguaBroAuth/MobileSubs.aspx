@@ -10,6 +10,7 @@
     <script src="signalr/hubs"></script>
     <script type="text/javascript">
         $(function () {
+            //перевод слова
             $("#subsList").on("click", "a", function () {
                 var link = $(this).text();
                 var text = $(this).parent().text();
@@ -21,7 +22,7 @@
                             result += "<span class='selected'>" + val + "</span> "
                         }
                         else {
-                            result += val + " ";
+                            result += "<span class=''>" + val + " " + "</span>";
                         }
                     }
                 })
@@ -40,8 +41,28 @@
                 chat.server.playVideo();
             });
 
-            $("#subsList").on("click", "li", function () {
+            //выбор нового слова из предложения
+            $("#myModal").on("click", ".trmodal span:not(.selected)", function () {
+                $('.trmodal .selected').removeClass('selected');
+                $(this).addClass('selected');
 
+                var link = $(this).text();
+                $('.word').text(link);
+                showTranslatedWorldInModal(link);
+            });
+             
+
+            //перемотка со страницы сабов
+            $("#subsList").on("click", "li", function () {
+                $('#subsList li.selected').removeClass('selected');
+                $(this).addClass('selected');
+                $('.inner').animate({
+                    scrollTop: $(this).offset().top + $('.inner')[0].scrollTop - 100
+                }, 200);
+
+                var second = parseFloat($(this).attr('data-start')) + 1;
+                chat.server.send(second);
+                createSub(second);
                 return false;
             });
         })
@@ -99,7 +120,7 @@
 
         .notch {
             position: absolute;
-            background: orange;
+            background: #FE570D;
             width: 3%;
             max-width: 20px;
             height: 50%;
@@ -152,7 +173,7 @@
         }
 
         .header1 {
-            background: orange;
+            background: #FE570D;
             color: white;
             padding: 10px;
             display: block;
@@ -212,7 +233,11 @@
         .trmodal .selected {
             padding: 5px;
             border-radius: 5px;
-            background: cadetblue;
+            background: #FE570D;
+        }
+
+        .trmodal span:not(.selected) {
+            cursor:pointer;
         }
 
         .close {
@@ -239,7 +264,7 @@
 
         <div class="outer">
             <div class="inner">
-                <div class="header1">Друзья, сезон 2, серия 3 </div>
+                <div class="header1">Ворон </div>
                 <ul id="subsList">
                 </ul>
                 <div class="notch"></div>
