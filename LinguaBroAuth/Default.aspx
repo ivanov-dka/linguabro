@@ -14,8 +14,8 @@
 </script>
 
 
-    <div class="row" style="position: relative">
-        <video width="640" height="480" controls>
+    <div class="row" style="position: relative;margin-top: 20px;margin-left: 0px;">
+        <video width="640" controls>
             <source src="https://linguabro.blob.core.windows.net/test/The%20Raven.2010.HDRip-AVC%20(720).mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>

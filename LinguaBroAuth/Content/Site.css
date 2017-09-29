@@ -51,7 +51,7 @@ input[type="select"] {
     position: absolute;
     width: 640px;
     left: 0px;
-    bottom: 100px;
+    bottom: 40px;
     z-index: 2147483647;
 }
 
