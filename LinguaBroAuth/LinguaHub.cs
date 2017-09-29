@@ -29,5 +29,9 @@ namespace LinguaBroAuth
             Clients.AllExcept(Context.ConnectionId).playVideo();
         }
 
+        public void ChangeLang()
+        {
+            Clients.AllExcept(Context.ConnectionId).changeLang();
+        }
     }
 }
