@@ -1,7 +1,6 @@
 ﻿$(function () {
     // Declare a proxy to reference the hub. 
     var chat = $.connection.linguaHub;
-
     //синхронизация видео
     chat.client.syncTime = function (second) {
         console.log('second is ' + second);
@@ -85,9 +84,13 @@ function seekToSub(ts) {
 }
 
 //фейк перевод
-function fakeTranslate(word) {
-    console.log('translation: ' + translation);
-    showTranslation(translation);
+function fakeTranslate(text, object) {
+    object.popover({
+        content: text + " ku",
+        animation: "fade",
+        placement: "top",
+    });
+    object.popover('show')
 }
 
 //перевести слово
