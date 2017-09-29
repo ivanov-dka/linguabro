@@ -83,7 +83,7 @@ when?
 var subText;
 //на инициализации создаем массив объектов субтитров в глобальной переменной
 function initSubCreation() {
-    
+
     var test = $.ajax({
         type: "GET",
         url: "https://linguabro.blob.core.windows.net/test/vsshort-en.txt",
@@ -96,18 +96,19 @@ function initSubCreation() {
     else {
         subData = parseSRT(subData);
     }
+    var video = $('video').get(0);
     if (video) {
-        var video = $('video').get(0);
-        video.onwebkitfullscreenchange = function () {
-            if (video.webkitDisplayingFullscreen) {
-                $("#subs").css('width', window.innerWidth)
+                 video.onwebkitfullscreenchange = function ()
+                    {
+                        if (video.webkitDisplayingFullscreen) {
+                            $("#subs").css('width', window.innerWidth)
 
-            }
-            else {
-                $("#subs").css('width', video.width)
-            }
-        }
-    }
+                        }
+                        else {
+                            $("#subs").css('width', video.width)
+                        }
+                    }
+                }
 }
 
 //выбираем саб для видео
@@ -126,7 +127,7 @@ function setSubSelected(second) {
             console.log($(this).text());
             return true;
         }
-       
+
     });
 }
 
@@ -157,7 +158,7 @@ function createSub(second) {
             $('#subs').html('');
             //заполняем его набором субтитров
             for (var j = 0; j < subText.length; j++) {
-                $('#subs').append('<span>' + ' ' + subText[j] + ' '  + '</span>')
+                $('#subs').append('<span>' + ' ' + subText[j] + ' ' + '</span>')
             }
             $('#subs span').click(function () {
                 $('#subs span').removeClass('word_selected');
