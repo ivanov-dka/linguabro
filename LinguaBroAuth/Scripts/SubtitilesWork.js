@@ -100,12 +100,18 @@ function initSubCreation() {
     var video = $('video').get(0);
     if (video) {
         video.onwebkitfullscreenchange = function () {
+            $('#subs span').popover('hide');
+            $('#subs span').removeClass('word_selected');
             if (video.webkitDisplayingFullscreen) {
                 $("#subs").css('width', window.innerWidth)
+                $("#subs").removeClass('smallFont');
+                $("#subs").addClass('largeFont');
 
             }
             else {
                 $("#subs").css('width', video.width)
+                $("#subs").addClass('smallFont');
+                $("#subs").removeClass('largeFont');
             }
         }
     }
@@ -165,6 +171,7 @@ function createSub(second) {
                 $('#subs').append('<span>' + ' ' + subText[j] + ' ' + '</span>')
             }
             $('#subs span').click(function () {
+                if ($(this).hasClass('word_selected')) return;
                 $('#subs span').removeClass('word_selected');
                 $('#subs span').popover('hide');
                 video.pause();
