@@ -173,6 +173,8 @@ function createSub(second) {
             }
             $('#subs span').click(function () {
                 if ($(this).hasClass('word_selected')) return;
+                $(".word_selected").removeAttr('title')
+                $(".word_selected").removeAttr('data-original-title')
                 $('#subs span').removeClass('word_selected');
                 $('#subs span').popover('hide');
                 video.pause();

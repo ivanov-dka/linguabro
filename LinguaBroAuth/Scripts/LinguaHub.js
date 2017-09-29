@@ -154,6 +154,7 @@ function showTranslatedWorldInVideoSub(text, object) {
                 content: result.text[0].trim(' '),
                 animation: "fade",
                 placement: "top",
+                trigger: 'manual'
             });
             object.popover('show')
         }
