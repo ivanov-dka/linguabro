@@ -127,7 +127,7 @@ function translate(word) {
         if (result.status == 200) {
             var translation = result.responseJSON.text[0];
             console.log('translation: ' + translation);
-            showTranslation(translation);
+            //showTranslation(translation);
         }
     });
 } 
@@ -138,7 +138,7 @@ function showTranslatedWorldInModal(word) {
         if (result.code == 200) {
             var translation = result.text[0].trim(' ');
             console.log('translation: ' + translation);
-            showTranslation(translation);
+            //showTranslation(translation);
             $('.translation').text(translation);
         }
     });
