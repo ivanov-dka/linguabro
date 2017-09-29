@@ -1,85 +1,355 @@
 ﻿var subData = `1
-00:00:04,700 --> 00:00:06,736
-where are you going so early?
+00:00:22,235 --> 00:00:23,668
+-Attention all units in the facility.
 
 2
-00:00:06,900 --> 00:00:09,494
-Don't record any more messages
-on my alarm clock.
+00:00:23,778 --> 00:00:27,706
+We have a possible suspect ID at the Sunshine apartment complex at peak on Boulevard.
 
 3
-00:00:09,660 --> 00:00:11,252
-why not?
+00:00:39,415 --> 00:00:40,893
+All available units in the area.
 
 4
-00:00:11,420 --> 00:00:13,888
-I'll start to think we're married
-or something.
+00:00:40,842 --> 00:00:42,546
+We have a positive ID on the suspect.
 
 5
-00:00:14,060 --> 00:00:15,732
-Don't ever say that word.
+00:00:42,752 --> 00:00:45,814
+Last name: Black
+First name: Chris A.K.A Raven.
 
 6
-00:00:15,900 --> 00:00:20,132
-I'll never bring you chicken soup
-and fuck your brains out again.
+00:00:45,849 --> 00:00:48,779
+Response at Sunshine apartment complex apartment 2A.
 
 7
-00:00:20,700 --> 00:00:25,774
-- How's your cold?
-- Still there. How about yours?
+00:00:49,446 --> 00:00:53,006
+Suspect is considered armed and extremely dangerous.
+Proceed with caution.
 
 8
-00:00:25,940 --> 00:00:29,649
-- You definitely took my mind off it.
-- Really?
+00:01:03,127 --> 00:01:05,403
+-Stop or I will open fire.
 
 9
-00:00:30,540 --> 00:00:32,690
-Yes!
+00:01:12,976 --> 00:01:18,714
+Citizen, this is the Los Angeles Police Force.
+Step out with your hands on your head.
 
 10
-00:00:39,420 --> 00:00:41,376
-Juliana here.
+00:01:18,841 --> 00:01:21,905
+I repeat, step out with your hands on your head.
 
 11
-00:00:41,540 --> 00:00:45,010
-Hi, Rayna. I missed my audition,
-I lost my head!
+00:01:27,119 --> 00:01:29,711
+Citizen, put your hands on your head.
 
 12
-00:00:45,180 --> 00:00:46,977
-Listen, I have to go.
+00:01:30,648 --> 00:01:33,735
+Any available units, unit 75 is now with suspect.
 
 13
-00:00:47,140 --> 00:00:49,017
-I'm with David.
+00:01:34,069 --> 00:01:36,248
+South West alley in Main Street and  7.
 
 14
-00:00:52,740 --> 00:00:57,939
-Help yourself to whatever you want.
-Set the alarm before you go. And...
+00:01:37,034 --> 00:01:41,093
+-Suspect is considered armed and extremely dangerous.
+Proceed with caution.
 
 15
-00:01:00,100 --> 00:01:01,738
-You are the greatest.
+00:01:41,906 --> 00:01:43,495
+-Thank you for your co-operation.
 
 16
-00:01:02,540 --> 00:01:06,579
-- Bye, honey!
-- Bye, honey. I'll call you later.
+00:01:46,171 --> 00:01:47,071
+Have a wonderful day.
 
 17
-00:01:06,740 --> 00:01:07,968
-when?
+00:01:51,513 --> 00:01:54,065
+-All units, suspect is heading north on Secora.
 
 18
-00:01:09,060 --> 00:01:11,255
-- When?
-- Soon!
+00:01:54,705 --> 00:01:58,036
+All units til latitude.
+33 north, longitude 119 west.
+
+19
+00:01:58,339 --> 00:02:00,123
+Use of deadly force has been approached.
+
+20
+00:02:28,451 --> 00:02:29,120
+-What the hell?
+
+21
+00:02:30,405 --> 00:02:31,486
+Yo man what's up man?
+
+22
+00:02:32,676 --> 00:02:33,778
+Scratching up my ride man.
+
+23
+00:02:36,218 --> 00:02:39,311
+Yo man you're lucky I'm on parole man or I'd have to beat you down man.
+
+24
+00:02:41,333 --> 00:02:42,053
+Yo what's up use?
+
+25
+00:02:42,919 --> 00:02:44,074
+Yo, what I got a flat?
+
+26
+00:02:44,461 --> 00:02:46,591
+-Stop or I will open fire.
+
+27
+00:02:49,365 --> 00:02:51,574
+Citizen, put your hands on your head.
+
+28
+00:02:54,221 --> 00:02:55,731
+This is your final warning.
+
+29
+00:03:09,648 --> 00:03:13,414
+-Attention units, units 55, 75 have been by suspect.
+
+30
+00:03:14,070 --> 00:03:17,604
+-Officers operating units, prepare to block all cities exits.
+
+31
+00:03:17,473 --> 00:03:22,580
+Do not let suspect exit the city,
+repeat do not let suspect exit the city.
+
+32
+00:03:31,661 --> 00:03:32,880
+-Move you big trashcan.
+
+33
+00:03:33,698 --> 00:03:34,535
+Get out of my alley.
+
+34
+00:03:38,802 --> 00:03:39,386
+-Fuck.
+
+35
+00:03:39,531 --> 00:03:46,152
+-Suspect, this is the Los Angeles Police Force.
+Come out with your fingers interlaced on top of your head.
+
+36
+00:03:50,853 --> 00:03:51,990
+-Why?
+
+37
+00:03:54,954 --> 00:03:59,950
+-Suspect, step out with your fingers interlaced on top of your head.
+
+38
+00:04:00,326 --> 00:04:03,094
+This is your final warning.
+
+39
+00:04:12,536 --> 00:04:15,644
+Suspect, put your hands on top of your head.
+
+40
+00:04:16,554 --> 00:04:20,073
+I repeat, put your hands on top of your head.
+
+41
+00:04:22,657 --> 00:04:24,723
+-Be adviced, all units response code 3.
+
+
+42
+00:05:09,892 --> 00:05:13,579
+Translated by Thomas "Supermix1337" Nilsen.
 
 `;
+
+var subDataRus = `1
+00:00:22,235 --> 00:00:23,668
+-Внимание! Всем подразделениям на объект.
+
+2
+00:00:23,778 --> 00:00:27,706
+Возможно у нас есть подозрительное удостоверение личности в центре жилого комплекса на бульваре Саншай.
+
+3
+00:00:39,415 --> 00:00:40,893
+-Всем свободным подразделениям в этом районе.
+
+4
+00:00:40,842 --> 00:00:42,546
+У нас есть подтверждение,мы индетифицировали личности подозреваемого.
+
+5
+00:00:42,752 --> 00:00:45,814
+Фамилия: Черный
+Имя: Крис A.K.A Ворон.
+
+6
+00:00:45,849 --> 00:00:48,779
+Местонахождение в квартире жилого комплекса Саншай 2A.
+
+7
+00:00:49,446 --> 00:00:53,006
+Подозреваемого считают вооруженным и чрезвычайно опасным.
+Соблюдайте осторожность.
+
+8
+00:01:03,127 --> 00:01:05,403
+- Остановитесь или я открою огонь.
+
+9
+00:01:12,976 --> 00:01:18,714
+Гражданин, это - полиция Лос-Анджелеса.
+Выйдите, руки за голову.
+
+10
+00:01:18,841 --> 00:01:21,905
+Я повторяю, выйти с поднятыми руками за головой.
+
+11
+00:01:27,119 --> 00:01:29,711
+Гражданин, положите руки за голову.
+
+12
+00:01:30,648 --> 00:01:33,735
+Всем доступным подразделениям, подразделение 75 в настоящее время с подозреваемым.
+
+13
+00:01:34,069 --> 00:01:36,248
+Юго-западный переулок на Мэйн-Стрит 7.
+
+14
+00:01:37,034 --> 00:01:41,093
+Подозреваемого считают вооруженным и чрезвычайно опасным.
+Соблюдайте осторожность.
+
+15
+00:01:41,906 --> 00:01:43,495
+- Спасибо за Ваше сотрудничество.
+
+16
+00:01:46,171 --> 00:01:47,071
+Прекрасный день.
+
+17
+00:01:51,513 --> 00:01:54,065
+-Всем подразделениям, подозреваемый движется в северном направлении на Секора.
+
+18
+00:01:54,705 --> 00:01:58,036
+Всем подразделениям на
+33 градуса северной широты и 119 градусов западной долготы.
+
+19
+00:01:58,339 --> 00:02:00,123
+Он использует смертельную силу, приближаюсь.
+
+20
+00:02:28,451 --> 00:02:29,120
+Какого черта?
+
+21
+00:02:30,405 --> 00:02:31,486
+Эй парень, кто ты такой?
+
+22
+00:02:32,676 --> 00:02:33,778
+Царапины на моей машине.
+
+23
+00:02:36,218 --> 00:02:39,311
+Эй парень, тебе повезло, что я - человек освобожденный под честное слово, а то бы я избил тебя.
+
+24
+00:02:41,333 --> 00:02:42,053
+Эй, что ты делаешь?
+
+25
+00:02:42,919 --> 00:02:44,074
+Эй, что я получу взамен?
+
+26
+00:02:44,461 --> 00:02:46,591
+- Остановитесь или я открою огонь.
+
+27
+00:02:49,365 --> 00:02:51,574
+Гражданин, положите руки за голову.
+
+28
+00:02:54,221 --> 00:02:55,731
+Это мое последнее предупреждение.
+
+29
+00:03:09,648 --> 00:03:13,414
+- Внимание подразделениям, подразделения 55, 75 были ликвидированны подозреваемым.
+
+30
+00:03:14,070 --> 00:03:17,604
+-Сотрудники оперативных подразделений, заблокируйте все выходы из города.
+
+31
+00:03:17,473 --> 00:03:22,580
+Не позволяйте подозреваемому скрыться из города,
+повторяю не позволяйте подозреваемому скрыться из города.
+
+32
+00:03:31,661 --> 00:03:32,880
+-Ты двигающийся большой робот.
+
+33
+00:03:33,698 --> 00:03:34,535
+Выйдите из моего переулка.
+
+34
+00:03:38,802 --> 00:03:39,386
+-Черт возьми.
+
+35
+00:03:39,531 --> 00:03:46,152
+- Подозреваемый, это - полиция Лос-Анджелеса.
+Скрепите пальцы за головой.
+
+36
+00:03:50,853 --> 00:03:51,990
+-За что?
+
+37
+00:03:54,954 --> 00:03:59,950
+- Подозревайте, выйдите со скрепленными пальцами за головой.
+
+38
+00:04:00,326 --> 00:04:03,094
+Это моё последнее предупреждение.
+
+39
+00:04:12,536 --> 00:04:15,644
+Подозреваемый, положите руки за голову.
+
+40
+00:04:16,554 --> 00:04:20,073
+Я повторяю, положите руки за голову.
+
+41
+00:04:22,657 --> 00:04:24,723
+-Имейте в виду, всем подразделения код ответа 3.
+`;
+
+var isRus = false;
+
 var subText;
 //на инициализации создаем массив объектов субтитров в глобальной переменной
 function initSubCreation() {
@@ -95,6 +365,19 @@ function initSubCreation() {
     }
     else {
         subData = parseSRT(subData);
+    }
+
+    var test2 = $.ajax({
+        type: "GET",
+        url: "https://linguabro.blob.core.windows.net/test/rus.txt",
+        cache: false,
+        async: false
+    }).responseText;
+    if (test2) {
+        subDataRus = parseSRT(test2);
+    }
+    else {
+        subDataRus = parseSRT(subDataRus);
     }
     
     var video = $('video').get(0);
@@ -145,26 +428,50 @@ function setSubSelected(second) {
 //создаем список сабов
 function createSubList() {
     var subsList = "";
-    for (var i = 0; i < subData.length; i++) {
-        var subText = subData[i].text.replace(/<br\/>/g, ' ').replace(/<br>/g, ' ').match(/[^ ]+/g)
-        subsList += '<li data-start="' + subData[i].start + '" data-end="' + subData[i].end + '">'
-        for (var j = 0; j < subText.length; j++) {
-            subsList += '<a href="#" >' + ' ' + subText[j] + ' ' + '</a>';
-        }
-        subsList += '</li>'
-    }
 
-    $('#subsList').append(subsList);
+    var data = isRus ? subDataRus : subData;
+
+    if ($('#subsList li').length == 0) {
+
+        for (var i = 0; i < data.length; i++) {
+            var subText = data[i].text.replace(/<br\/>/g, ' ').replace(/<br>/g, ' ').match(/[^ ]+/g)
+            subsList += '<li id="' + data[i].id + '" data-start="' + data[i].start + '" data-end="' + data[i].end + '">'
+            for (var j = 0; j < subText.length; j++) {
+                subsList += '<a href="#" >' + ' ' + subText[j] + ' ' + '</a>';
+            }
+            subsList += '</li>'
+        }
+
+        $('#subsList').append(subsList);
+
+        setScroll();
+    }
+    else {
+        $('#subsList li').empty();
+        for (var i = 0; i < data.length; i++) {
+            var subText = data[i].text.replace(/<br\/>/g, ' ').replace(/<br>/g, ' ').match(/[^ ]+/g)
+            
+            var li = $('li[id="' + data[i].id + '"]');
+            for (var j = 0; j < subText.length; j++) {
+                var sub = '<a href="#" >' + ' ' + subText[j] + ' ' + '</a>';
+                li.append(sub);
+            }            
+        }
+
+        setScroll();
+    }
 }
 
 // подставляем субтитры под текущий timestamp
 function createSub(second) {
     video = $('video').get(0);
     //if (video.paused) return;
-    for (var i = 0; i < subData.length; i++) {
+    var data = isRus ? subDataRus : subData;
+
+    for (var i = 0; i < data.length; i++) {
         //если текущий timestamp находится в промежутке timestamp объекта субтитров, берем текст и объекта
-        if (second < subData[i].end && second > subData[i].start) {
-            var subText = subData[i].text.match(/[^ ]+/g)
+        if (second < data[i].end && second > data[i].start) {
+            var subText = data[i].text.match(/[^ ]+/g)
             //очищаем текущий контейнер субтитров
             $('#subs').html('');
             //заполняем его набором субтитров

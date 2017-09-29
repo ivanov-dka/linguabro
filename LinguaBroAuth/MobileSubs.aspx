@@ -78,6 +78,13 @@
                 createSub(second);
                 return false;
             });
+
+            //смена языка
+            $('.outer').on("click", ".changeLang", function () {
+                isRus = !isRus;
+                chat.server.changeLang();
+                createSubList();
+            });
         })
     </script>
 
@@ -270,13 +277,31 @@
             opacity: .9;
             filter: alpha(opacity=50);
         }
+
+        img.changeLang {
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            cursor: pointer;
+            width: 30px;
+            background: rgba(255,255,255,0.5);
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        img.changeLang:hover{
+             background: rgba(255,255,255,0.7);
+        }
     </style>
 
     <div>
 
         <div class="outer">
             <div class="inner">
-                <div class="header1">Ворон </div>
+                <div class="header1">Ворон 
+                    <img src="Images/shuffle.png" class="changeLang" />
+
+                </div>
                 <ul id="subsList">
                 </ul>
                 <div class="notch"></div>

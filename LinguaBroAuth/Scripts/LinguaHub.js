@@ -23,6 +23,16 @@ $(function () {
         }
     };
 
+    //пауза
+    chat.client.changeLang = function () {
+        try {
+            isRus = !isRus;
+        }
+        catch (e) {
+            console.log('changeLang error');
+        }
+    };
+
     //играть
     chat.client.playVideo = function () {
         try {
@@ -38,7 +48,6 @@ $(function () {
         //инициализация блока субтитров поверх видео
         initSubCreation();
         createSubList();
-        setScroll();
     })
    
 
@@ -124,7 +133,8 @@ var key = "trnsl.1.1.20170928T163527Z.fbfebe4278d9622f.bfd4d9aacf6e694e4c44897c6
 var key2 = "trnsl.1.1.20170929T093239Z.8565a25d96726965.4913b64c2e1075528b88c910025a9c71f1524dd6"
 //перевести слово
 function translate(word) {
-    var url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" + key2 + "&lang=en-ru&format=plain&text=" + word;
+    var lang = isRus ? "ru-en" : "en-ru";
+    var url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" + key2 + "&lang=" + lang + "&format=plain&text=" + word;
     $.getJSON(url, function (result) {
         if (result.status == 200) {
             var translation = result.responseJSON.text[0];
@@ -135,7 +145,8 @@ function translate(word) {
 } 
 
 function showTranslatedWorldInModal(word) {
-    var url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" + key2 + "&lang=en-ru&format=plain&text=" + word;
+    var lang = isRus ? "ru-en" : "en-ru";
+    var url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" + key2 + "&lang=" + lang + "&format=plain&text=" + word;
     $.getJSON(url, function (result) {
         if (result.code == 200) {
             var translation = result.text[0].trim(' ');
@@ -147,7 +158,8 @@ function showTranslatedWorldInModal(word) {
 }
 
 function showTranslatedWorldInVideoSub(text, object) {
-    var url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" + key2 + "&lang=en-ru&format=plain&text=" + text;
+    var lang = isRus ? "ru-en" : "en-ru";
+    var url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" + key2 + "&lang=" + lang + "&format=plain&text=" + text;
     $.getJSON(url, function (result) {
         if (result.code == 200) {
             object.popover({
