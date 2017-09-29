@@ -96,14 +96,16 @@ function initSubCreation() {
     else {
         subData = parseSRT(subData);
     }
-    var video = $('video').get(0);
-    video.onwebkitfullscreenchange = function () {
-        if (video.webkitDisplayingFullscreen) {
-            $("#subs").css('width', window.innerWidth)
+    if (video) {
+        var video = $('video').get(0);
+        video.onwebkitfullscreenchange = function () {
+            if (video.webkitDisplayingFullscreen) {
+                $("#subs").css('width', window.innerWidth)
 
-        }
-        else {
-            $("#subs").css('width', video.width)
+            }
+            else {
+                $("#subs").css('width', video.width)
+            }
         }
     }
 }
