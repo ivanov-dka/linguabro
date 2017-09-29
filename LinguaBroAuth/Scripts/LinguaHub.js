@@ -106,6 +106,18 @@ function translate(word) {
             showTranslation(translation);
         }
     });
+} 
+
+function showTranslatedWorldInModal(word) {
+    var url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20170928T163527Z.fbfebe4278d9622f.bfd4d9aacf6e694e4c44897c6c3ff53e684f6f23&lang=en-ru&format=plain&text=" + word;
+    $.getJSON(url, function (result) {
+        if (result.code == 200) {
+            var translation = result.text[0].trim(' ');
+            console.log('translation: ' + translation);
+            showTranslation(translation);
+            $('.translation').text(translation);
+        }
+    });
 }
 
 function showTranslation(word) {

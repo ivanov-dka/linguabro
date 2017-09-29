@@ -29,7 +29,7 @@
                 $("#myModal").modal();
 
                 $('.word').text(link);
-                $('.translation').text("Курочка");
+                showTranslatedWorldInModal(link);
             });
         })
     </script>
