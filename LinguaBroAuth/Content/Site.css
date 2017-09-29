@@ -63,6 +63,7 @@ input[type="select"] {
     #subs span {
         cursor: pointer;
         font-size: 18px;
+        padding: 1px;
         color: aliceblue;
         text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
     }
