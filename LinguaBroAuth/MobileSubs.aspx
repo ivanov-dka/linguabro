@@ -25,11 +25,18 @@
                         }
                     }
                 })
+
+                chat.server.pauseVideo();
+
                 $('.modal-header p').html(result);
                 $("#myModal").modal();
 
                 $('.word').text(link);
                 $('.translation').text("Курочка");
+            });
+
+            $("#myModal").on("click", ".close", function () {
+                chat.server.playVideo();
             });
         })
     </script>

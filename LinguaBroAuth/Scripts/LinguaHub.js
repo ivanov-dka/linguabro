@@ -1,6 +1,7 @@
-﻿$(function () {
+﻿var chat = null;
+$(function () {
     // Declare a proxy to reference the hub. 
-    var chat = $.connection.linguaHub;
+     chat = $.connection.linguaHub;
     //синхронизация видео
     chat.client.syncTime = function (second) {
         console.log('second is ' + second);
@@ -9,6 +10,28 @@
 
         //если на странице сабы - мотаем их
         seekToSub(second);
+    };
+
+    //пауза
+    chat.client.pauseVideo = function () {
+        try {
+            var video_element = $('video').get(0);
+            video_element.pause();
+        }
+        catch (e) {
+            console.log('pauseVideo error');
+        }
+    };
+
+    //играть
+    chat.client.playVideo = function () {
+        try {
+            var video_element = $('video').get(0);
+            video_element.play();
+        }
+        catch (e) {
+            console.log('playVideo error');
+        }
     };
 
     $(function () {
@@ -55,6 +78,7 @@
         catch (e) {
             console.log('lastTimeTranslate error');
         }
+
     });
 });
 
