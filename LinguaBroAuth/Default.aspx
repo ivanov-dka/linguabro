@@ -23,9 +23,4 @@
         </div>
     </div>
 
- <div id="subs">
-        <a href="#" class="sub"></a>
-    </div>
-
-
 </asp:Content>
