@@ -49,8 +49,21 @@
                 var link = $(this).text();
                 $('.word').text(link);
                 showTranslatedWorldInModal(link);
+                return false;
             });
-             
+
+            $("#myModal").on("click", ".translateAll", function () {
+
+                $(this).prop('disabled', true);
+
+                $('.trmodal .selected').removeClass('selected');
+                var link = $('.form-group p').text();
+                $('.word').text(link);
+                link = encodeURI($('.form-group p').text());
+                showTranslatedWorldInModal(link);
+                $(this).prop('disabled', false);
+                return false;
+            });             
 
             //перемотка со страницы сабов
             $("#subsList").on("click", "li", function () {
@@ -288,7 +301,7 @@
                     <p class="word"></p>
                     <p class="translation"></p>
                     <button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-plus"></span>Добавить в словарь</button>
-
+                     <button type="button" class="btn btn-default btn-default pull-left translateAll" ><span class="glyphicon glyphicon-list-alt"></span>Перевести все</button>
                 </div>
             </div>
         </div>
