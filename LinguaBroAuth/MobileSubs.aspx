@@ -40,8 +40,17 @@
                 chat.server.playVideo();
             });
 
+            //перемотка со страницы сабов
             $("#subsList").on("click", "li", function () {
+                $('#subsList li.selected').removeClass('selected');
+                $(this).addClass('selected');
+                $('.inner').animate({
+                    scrollTop: $(this).offset().top + $('.inner')[0].scrollTop - 100
+                }, 200);
 
+                var second = parseFloat($(this).attr('data-start')) + 1;
+                chat.server.send(second);
+                createSub(second);
                 return false;
             });
         })
