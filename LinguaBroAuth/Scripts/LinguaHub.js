@@ -144,6 +144,21 @@ function showTranslatedWorldInModal(word) {
     });
 }
 
+function showTranslatedWorldInVideoSub(text, object) {
+    var url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20170928T163527Z.fbfebe4278d9622f.bfd4d9aacf6e694e4c44897c6c3ff53e684f6f23&lang=en-ru&format=plain&text=" + text;
+    $.getJSON(url, function (result) {
+        if (result.code == 200) {
+            object.popover({
+                content: result.text[0].trim(' '),
+                animation: "fade",
+                placement: "top",
+            });
+            object.popover('show')
+        }
+    });
+}
+
+
 function showTranslation(word) {
 
 }

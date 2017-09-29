@@ -169,7 +169,7 @@ function createSub(second) {
                 $('#subs span').popover('hide');
                 video.pause();
                 $(this).addClass('word_selected')
-                fakeTranslate($(this).text(), $(this));
+                showTranslatedWorldInVideoSub($(this).text(), $(this));
             });
             return;
         }
