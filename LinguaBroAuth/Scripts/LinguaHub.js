@@ -63,6 +63,9 @@
 function seekToTime(ts) {
     var video_element = $('video').get(0);
 
+    if (!video_element || video_element.length == 0)
+        return;
+
     if (Math.abs(video_element.currentTime - ts) > 2) {
         // try and avoid pauses after seeking
         video_element.pause();
@@ -115,7 +118,7 @@ function setScroll() {
     const $ = selector => document.querySelector(selector);
     const $$ = selector => document.querySelectorAll(selector);
 
-    if ($('#subsList').length == 0)
+    if ($$('#subsList').length == 0)
         return;
 
     const items = $$("li");

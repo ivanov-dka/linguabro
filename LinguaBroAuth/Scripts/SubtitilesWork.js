@@ -100,13 +100,18 @@ function initSubCreation() {
 
 //выбираем саб для видео
 function setSubSelected(second) {
+
+    $('#subsList li.selected').removeClass('selected');
     $('#subsList li').each(function () {
-        $('#subsList li.selected').removeClass('.selected');
 
         var start = parseInt($(this).attr('data-start'), 10);
         var end = parseInt($(this).attr('data-end'), 10);
         if (start <= second && second <= end) {
             $(this).addClass('selected');
+            $('.inner').animate({
+                scrollTop: $(this).offset().top
+            }, 200);
+            console.log($(this).text());
             return true;
         }
        
