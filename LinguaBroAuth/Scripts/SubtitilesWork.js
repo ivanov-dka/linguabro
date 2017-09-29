@@ -83,7 +83,7 @@ when?
 var subText;
 //на инициализации создаем массив объектов субтитров в глобальной переменной
 function initSubCreation() {
-    
+
     var test = $.ajax({
         type: "GET",
         url: "https://linguabro.blob.core.windows.net/test/vsshort-en.txt",
@@ -131,7 +131,7 @@ function setSubSelected(second) {
             
             return true;
         }
-       
+
     });
 }
 
@@ -162,7 +162,7 @@ function createSub(second) {
             $('#subs').html('');
             //заполняем его набором субтитров
             for (var j = 0; j < subText.length; j++) {
-                $('#subs').append('<span>' + ' ' + subText[j] + ' '  + '</span>')
+                $('#subs').append('<span>' + ' ' + subText[j] + ' ' + '</span>')
             }
             $('#subs span').click(function () {
                 $('#subs span').removeClass('word_selected');
