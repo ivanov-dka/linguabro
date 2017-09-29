@@ -16,7 +16,7 @@
     <RootNamespace>LinguaBroAuth</RootNamespace>
     <AssemblyName>LinguaBroAuth</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -453,9 +453,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60309</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/LinguaBro</IISUrl>
-          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
-          <IISAppRootUrl>http://localhost/LinguaBro</IISAppRootUrl>
+          <IISUrl>http://localhost:53286/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

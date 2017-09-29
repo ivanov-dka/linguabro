@@ -86,7 +86,7 @@ function initSubCreation() {
 
     var test = $.ajax({
         type: "GET",
-        url: "https://linguabro.blob.core.windows.net/test/vsshort-en.txt",
+        url: "https://linguabro.blob.core.windows.net/test/The%20Raven.2010.HDRip-AVC%20(720).eng.txt",
         cache: false,
         async: false
     }).responseText;

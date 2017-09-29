@@ -16,7 +16,7 @@
 
     <div class="row" style="position: relative">
         <video width="640" height="480" controls>
-            <source src="https://linguabro.blob.core.windows.net/test/big_buck_bunny.mp4" type="video/mp4">
+            <source src="https://linguabro.blob.core.windows.net/test/The%20Raven.2010.HDRip-AVC%20(720).mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div id="subs">

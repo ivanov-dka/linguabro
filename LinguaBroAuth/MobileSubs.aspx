@@ -33,10 +33,16 @@
 
                 $('.word').text(link);
                 showTranslatedWorldInModal(link);
+                return false;
             });
 
             $("#myModal").on("click", ".close", function () {
                 chat.server.playVideo();
+            });
+
+            $("#subsList").on("click", "li", function () {
+
+                return false;
             });
         })
     </script>
