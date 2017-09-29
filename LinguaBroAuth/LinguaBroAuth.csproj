@@ -198,7 +198,6 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="Content\big_buck_bunny.mp4" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -216,16 +215,16 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Properties\PublishProfiles\LinguaBroAuth20170928115707 - Web Deploy.pubxml" />
-    <None Include="Scripts\jquery_old\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\bootstrap_old\bootstrap.js" />
     <Content Include="Scripts\bootstrap_old\bootstrap.min.js" />
     <Content Include="Scripts\jquery.min.js" />
-    <Content Include="Scripts\jquery_old\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery_old\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery.signalR-2.2.2.js" />
     <Content Include="Scripts\jquery.signalR-2.2.2.min.js" />
+    <None Include="Scripts\jquery_old\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery_old\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery_old\jquery-1.10.2.min.js" />
     <Content Include="Scripts\LinguaHub.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\parse-srt.js" />

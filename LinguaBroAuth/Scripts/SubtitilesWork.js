@@ -117,7 +117,7 @@ function setSubSelected(second) {
 function createSubList() {
     var subsList = "";
     for (var i = 0; i < subData.length; i++) {
-        var subText = subData[i].text.match(/[^ ]+/g)
+        var subText = subData[i].text.replace(/<br\/>/g, ' ').replace(/<br>/g, ' ').match(/[^ ]+/g)
         subsList += '<li data-start="' + subData[i].start + '" data-end="' + subData[i].end + '">'
         for (var j = 0; j < subText.length; j++) {
             subsList += '<a href="#" >' + ' ' + subText[j] + ' ' + '</a>';
