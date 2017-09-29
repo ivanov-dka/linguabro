@@ -18,6 +18,16 @@ namespace LinguaBroAuth
             // Call the broadcastMessage method to update clients.
             Clients.AllExcept(Context.ConnectionId).syncTime(second);
         }
-        
+
+        public void PauseVideo()
+        {
+            Clients.AllExcept(Context.ConnectionId).pauseVideo();
+        }
+
+        public void PlayVideo()
+        {
+            Clients.AllExcept(Context.ConnectionId).playVideo();
+        }
+
     }
 }

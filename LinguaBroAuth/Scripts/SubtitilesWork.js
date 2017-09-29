@@ -96,19 +96,19 @@ function initSubCreation() {
     else {
         subData = parseSRT(subData);
     }
+    
     var video = $('video').get(0);
     if (video) {
-                 video.onwebkitfullscreenchange = function ()
-                    {
-                        if (video.webkitDisplayingFullscreen) {
-                            $("#subs").css('width', window.innerWidth)
+        video.onwebkitfullscreenchange = function () {
+            if (video.webkitDisplayingFullscreen) {
+                $("#subs").css('width', window.innerWidth)
 
-                        }
-                        else {
-                            $("#subs").css('width', video.width)
-                        }
-                    }
-                }
+            }
+            else {
+                $("#subs").css('width', video.width)
+            }
+        }
+    }
 }
 
 //выбираем саб для видео
@@ -117,14 +117,18 @@ function setSubSelected(second) {
     $('#subsList li.selected').removeClass('selected');
     $('#subsList li').each(function () {
 
-        var start = parseInt($(this).attr('data-start'), 10);
-        var end = parseInt($(this).attr('data-end'), 10);
+        var start = parseFloat($(this).attr('data-start'));
+        var end = parseFloat($(this).attr('data-end'));
         if (start <= second && second <= end) {
             $(this).addClass('selected');
-            $('.inner').animate({
-                scrollTop: $(this).offset().top
-            }, 200);
             console.log($(this).text());
+            console.log('top: ' + $(this).offset().top);
+            console.log('scrollTop: ' + $('.inner')[0].scrollTop);
+
+            $('.inner').animate({
+                scrollTop: $(this).offset().top + $('.inner')[0].scrollTop - 100
+            }, 200);
+            
             return true;
         }
 
@@ -149,7 +153,7 @@ function createSubList() {
 // подставляем субтитры под текущий timestamp
 function createSub(second) {
     video = $('video').get(0);
-    if (video.paused) return;
+    //if (video.paused) return;
     for (var i = 0; i < subData.length; i++) {
         //если текущий timestamp находится в промежутке timestamp объекта субтитров, берем текст и объекта
         if (second < subData[i].end && second > subData[i].start) {
