@@ -228,7 +228,6 @@
         .modal-footer {
             margin-top: 0px;
             background: white;
-            height: 70vh;
         }
 
         .translation {
